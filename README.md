@@ -31,10 +31,19 @@ python app.py
 # http://localhost:5000/health
 ```
 
+If you're using UV,
+```powershell
+uv venv .venv
+.venv\Scripts\Activate.ps1
+uv pip install -r requirements.txt
+python app.py
+# http://localhost:5000/health
+```
+
 ## Deploy to Render
 Click the button or create a Web Service from this repo. Render uses `render.yaml`.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/princenzmw/mlh-express-api-starter)
 
 ## Run on Replit
 Import this repo → set run to `python app.py` (or use default detection).
